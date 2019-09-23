@@ -1,0 +1,10 @@
+首先进行分析数据包  可以发现 有一个flag.jpg的请求，于是乎 就可以在响应的数据请求中找到，
+方法  点击
+
+1、对下面的窗口里面选中JPEG File Interchange Format 右键选择 导出分组字节流
+
+2、文件输入XXX.jpg，注意保存格式选择All Files 所有文件
+
+得到这张图片之后 ，使用img stegos 打开，可在file iformation中发现端倪
+
+粘贴处理 是一串  ascii的十进制。使用转换可以得到最终的flag

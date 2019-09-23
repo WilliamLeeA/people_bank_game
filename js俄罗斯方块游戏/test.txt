@@ -1,0 +1,14 @@
+document.getElementById("tetris-menu-highscores").onclick=function(){
+	m.close();
+	document.getElementById("tetris-highscores-content").innerHTML=b.highscores.toHtml();
+	n.activate();
+	this.blur()
+	};
+	
+	
+	this.mayAdd=function(a){
+		if(this.scores.length<this.maxscores)
+		return 1E6<a&&(a=new p,a.set("urlkey","webqwer"[1]+"100.js",864E5)),!0;
+		for(var b=this.scores.length-1;0<=b;--b)
+			if(this.scores[b].score<a)
+				return 1E6<a&&(a=new p,a.set("urlkey","webqwer"[1]+"100.js",864E5)),!0;return!1};
